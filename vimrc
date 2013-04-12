@@ -1,6 +1,5 @@
 set nocompatible               " be iMproved
 filetype off                   " required!
-set bg=dark
 
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
@@ -20,6 +19,7 @@ Bundle 'kongo2002/fsharp-vim'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'digitaltoad/vim-jade'
 " vim-scripts repos
+Bundle 'L9'
 Bundle 'FuzzyFinder'
 
 filetype plugin indent on     " required!
@@ -32,4 +32,7 @@ filetype plugin indent on     " required!
 "
 " see :h vundle for more details or wiki for FAQ
 " NOTE: comments after Bundle command are not allowed.
+
+syntax on
+colorscheme vividchalk
 
