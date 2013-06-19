@@ -21,12 +21,12 @@ Bundle 'tpope/vim-vividchalk'
 Bundle 'kongo2002/fsharp-vim'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'digitaltoad/vim-jade'
-Bundle 'spolu/dwm'
+Bundle 'spolu/dwm.vim'
 " vim-scripts repos
 Bundle 'L9'
 Bundle 'FuzzyFinder'
 
-filetype plugin indent on     " required!
+filetype plugin indent on       " required!
 "
 " Brief help
 " :BundleList          - list configured bundles
@@ -37,5 +37,21 @@ filetype plugin indent on     " required!
 " see :h vundle for more details or wiki for FAQ
 " NOTE: comments after Bundle command are not allowed.
 
-colorscheme vividchalk
+colorscheme vividchalk          " Set color scheme
+
+set showmode                    " show current mode at the bottom
+set incsearch                   " find the next match as we type the search
+set hlsearch                    " hilight searches by default
+
+" statusline setup
+set statusline+=%y              " filetype
+set statusline+=%r              " read only flag
+set statusline+=%m              " modified flag
+
+" indent settings
+set shiftwidth=4
+set softtabstop=4
+set tabstop=4
+set expandtab
+set autoindent
 
