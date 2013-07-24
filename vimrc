@@ -22,6 +22,7 @@ Bundle 'kongo2002/fsharp-vim'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'digitaltoad/vim-jade'
 Bundle 'spolu/dwm.vim'
+Bundle 'elixir-lang/vim-elixir'
 " vim-scripts repos
 Bundle 'L9'
 Bundle 'FuzzyFinder'
