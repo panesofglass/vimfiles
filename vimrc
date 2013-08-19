@@ -23,6 +23,7 @@ Bundle 'kchmck/vim-coffee-script'
 Bundle 'digitaltoad/vim-jade'
 Bundle 'spolu/dwm.vim'
 Bundle 'elixir-lang/vim-elixir'
+Bundle 'vim-scripts/VimClojure'
 " vim-scripts repos
 Bundle 'L9'
 Bundle 'FuzzyFinder'
