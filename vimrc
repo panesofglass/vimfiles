@@ -13,11 +13,6 @@ set showmode                    " show current mode at the bottom
 set incsearch                   " find the next match as we type the search
 set hlsearch                    " hilight searches by default
 
-" statusline setup
-set statusline+=%y              " filetype
-set statusline+=%r              " read only flag
-set statusline+=%m              " modified flag
-
 " indent settings
 set shiftwidth=4
 set softtabstop=4
@@ -25,3 +20,7 @@ set tabstop=4
 set expandtab
 set autoindent
 
+" F# support: set the path to MSBuild on Windows
+if has('win16') || has('win32') || has('win64')
+    let g:fsharp_xbuild_path = 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe'
+endif
