@@ -1,11 +1,11 @@
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 
-set nocompatible               " be iMproved
-filetype on
+set nocompatible                " be iMproved
 
 execute pathogen#infect()
-syntax on
-filetype plugin indent on
+
+filetype plugin indent on       " turn filetype detection, indent scripts and filetype plugins on
+syntax on                       " and syntax highlighting too
 
 colorscheme vividchalk          " Set color scheme
 
