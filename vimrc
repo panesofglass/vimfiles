@@ -1,17 +1,28 @@
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 
-set nocompatible                " be iMproved
+" be iMproved
+set nocompatible
 
 execute pathogen#infect()
 
-filetype plugin indent on       " turn filetype detection, indent scripts and filetype plugins on
-syntax on                       " and syntax highlighting too
+" turn filetype detection, indent scripts and filetype plugins on
+filetype plugin indent on
+" and syntax highlighting too
+syntax on
 
-colorscheme vividchalk          " Set color scheme
+" use ',' for the leader, rather than the default '\'
+let mapleader = ","
+let g:mapleader = ","
 
-set showmode                    " show current mode at the bottom
-set incsearch                   " find the next match as we type the search
-set hlsearch                    " hilight searches by default
+" Set color scheme
+colorscheme vividchalk
+
+" show current mode at the bottom
+set showmode
+" find the next match as we type the search
+set incsearch
+" hilight searches by default
+set hlsearch
 
 " indent settings
 set shiftwidth=4
