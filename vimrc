@@ -8,14 +8,17 @@ execute pathogen#infect()
 " turn filetype detection, indent scripts and filetype plugins on
 filetype plugin indent on
 " and syntax highlighting too
-syntax on
+" syntax on
+syntax off
 
 " use ',' for the leader, rather than the default '\'
 let mapleader = ","
 let g:mapleader = ","
 
 " Set color scheme
-colorscheme vividchalk
+" colorscheme vividchalk
+:colo nofrils-light
+:let g:nofrils_strbackgrounds=1 " to turn highlighted string backgrounds
 
 " show current mode at the bottom
 set showmode
