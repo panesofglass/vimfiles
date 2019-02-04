@@ -28,9 +28,6 @@
 [submodule "bundle/nofrils"]
 	path = bundle/nofrils
 	url = https://github.com/robertmeta/nofrils
-[submodule "bundle/typescript-vim"]
-	path = bundle/typescript-vim
-	url = https://github.com/leafgarland/typescript-vim
 [submodule "bundle/LanguageClient-neovim"]
 	path = bundle/LanguageClient-neovim
 	url = https://github.com/autozimu/LanguageClient-neovim.git
