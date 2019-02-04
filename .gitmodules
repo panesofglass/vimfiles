@@ -31,3 +31,9 @@
 [submodule "bundle/LanguageClient-neovim"]
 	path = bundle/LanguageClient-neovim
 	url = https://github.com/autozimu/LanguageClient-neovim.git
+[submodule "bundle/fzf"]
+	path = bundle/fzf
+	url = https://github.com/junegunn/fzf.git
+[submodule "bundle/deoplete.nvim"]
+	path = bundle/deoplete.nvim
+	url = https://github.com/Shougo/deoplete.nvim.git
