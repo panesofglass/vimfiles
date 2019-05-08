@@ -8,7 +8,7 @@ execute pathogen#infect()
 " Use deoplete
 call deoplete#enable()
 let g:deoplete#enable_at_startup = 1
-let g:python3_host_prog = 'C:\Python37\python.exe'
+let g:python3_host_prog = '/usr/bin/python3'
 
 " turn filetype detection, indent scripts and filetype plugins on
 filetype plugin indent on
@@ -43,7 +43,7 @@ set autoindent
 set hidden
 
 let g:LanguageClient_serverCommands = {
-    \ 'fsharp': ['dotnet', 'C:/Users/ryan/.lsp/fsharp-language-server/src/FSharpLanguageServer/bin/Release/netcoreapp2.0/target/FSharpLanguageServer.dll']
+    \ 'fsharp': ['dotnet', '~/.lsp/fsharp-language-server/src/FSharpLanguageServer/bin/Release/netcoreapp2.0/target/FSharpLanguageServer.dll']
     \ }
 
 nnoremap <silent> K :call LanguageClient#textDocument_hover()<CR>
