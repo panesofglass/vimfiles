@@ -1,12 +1,8 @@
-runtime bundle/vim-pathogen/autoload/pathogen.vim
-
 " be iMproved
 set nocompatible
 
-execute pathogen#infect()
-
 " Use deoplete
-call deoplete#enable()
+" call deoplete#enable()
 let g:deoplete#enable_at_startup = 1
 let g:python3_host_prog = '/usr/bin/python3'
 

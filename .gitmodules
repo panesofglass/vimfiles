@@ -1,45 +1,42 @@
-[submodule "bundle/vim-pathogen"]
-	path = bundle/vim-pathogen
-	url = https://github.com/tpope/vim-pathogen
-[submodule "bundle/syntastic"]
-	path = bundle/syntastic
+[submodule "pack/bundle/start/syntastic"]
+	path = pack/bundle/start/syntastic
 	url = https://github.com/scrooloose/syntastic
-[submodule "bundle/vim-vividchalk"]
-	path = bundle/vim-vividchalk
+[submodule "pack/bundle/start/vim-vividchalk"]
+	path = pack/bundle/start/vim-vividchalk
 	url = https://github.com/tpope/vim-vividchalk
-[submodule "bundle/vim-sensible"]
-	path = bundle/vim-sensible
+[submodule "pack/bundle/start/vim-sensible"]
+	path = pack/bundle/start/vim-sensible
 	url = https://github.com/tpope/vim-sensible
-[submodule "bundle/vim-abolish"]
-	path = bundle/vim-abolish
+[submodule "pack/bundle/start/vim-abolish"]
+	path = pack/bundle/start/vim-abolish
 	url = https://github.com/tpope/vim-abolish
-[submodule "bundle/vim-fugitive"]
-	path = bundle/vim-fugitive
+[submodule "pack/bundle/start/vim-fugitive"]
+	path = pack/bundle/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive
-[submodule "bundle/vim-surround"]
-	path = bundle/vim-surround
+[submodule "pack/bundle/start/vim-surround"]
+	path = pack/bundle/start/vim-surround
 	url = https://github.com/tpope/vim-surround
-[submodule "bundle/vim-airline"]
-	path = bundle/vim-airline
+[submodule "pack/bundle/start/vim-airline"]
+	path = pack/bundle/start/vim-airline
 	url = https://github.com/bling/vim-airline
-[submodule "bundle/supertab"]
-	path = bundle/supertab
+[submodule "pack/bundle/start/supertab"]
+	path = pack/bundle/start/supertab
 	url = https://github.com/ervandew/supertab
-[submodule "bundle/nofrils"]
-	path = bundle/nofrils
+[submodule "pack/bundle/start/nofrils"]
+	path = pack/bundle/start/nofrils
 	url = https://github.com/robertmeta/nofrils
-[submodule "bundle/LanguageClient-neovim"]
-	path = bundle/LanguageClient-neovim
+[submodule "pack/bundle/start/LanguageClient-neovim"]
+	path = pack/bundle/start/LanguageClient-neovim
 	url = https://github.com/autozimu/LanguageClient-neovim.git
-[submodule "bundle/fzf"]
-	path = bundle/fzf
+[submodule "pack/bundle/start/fzf"]
+	path = pack/bundle/start/fzf
 	url = https://github.com/junegunn/fzf.git
-[submodule "bundle/deoplete.nvim"]
-	path = bundle/deoplete.nvim
+[submodule "pack/bundle/start/deoplete.nvim"]
+	path = pack/bundle/start/deoplete.nvim
 	url = https://github.com/Shougo/deoplete.nvim.git
-[submodule "bundle/vim-hug-neovim-rpc"]
-	path = bundle/vim-hug-neovim-rpc
+[submodule "pack/bundle/start/vim-hug-neovim-rpc"]
+	path = pack/bundle/start/vim-hug-neovim-rpc
 	url = https://github.com/roxma/vim-hug-neovim-rpc
-[submodule "bundle/nvim-yarp"]
-	path = bundle/nvim-yarp
+[submodule "pack/bundle/start/nvim-yarp"]
+	path = pack/bundle/start/nvim-yarp
 	url = https://github.com/roxma/nvim-yarp
