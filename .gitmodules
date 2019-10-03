@@ -31,12 +31,6 @@
 [submodule "pack/bundle/start/fzf"]
 	path = pack/bundle/start/fzf
 	url = https://github.com/junegunn/fzf.git
-[submodule "pack/bundle/start/deoplete.nvim"]
-	path = pack/bundle/start/deoplete.nvim
-	url = https://github.com/Shougo/deoplete.nvim.git
-[submodule "pack/bundle/start/vim-hug-neovim-rpc"]
-	path = pack/bundle/start/vim-hug-neovim-rpc
-	url = https://github.com/roxma/vim-hug-neovim-rpc
-[submodule "pack/bundle/start/nvim-yarp"]
-	path = pack/bundle/start/nvim-yarp
-	url = https://github.com/roxma/nvim-yarp
+[submodule ".\\pack\\bundle\\start\\Ionide-vim"]
+	path = .\\pack\\bundle\\start\\Ionide-vim
+	url = https://github.com/ionide/Ionide-vim
