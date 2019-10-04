@@ -31,6 +31,6 @@
 [submodule "pack/bundle/start/fzf"]
 	path = pack/bundle/start/fzf
 	url = https://github.com/junegunn/fzf.git
-[submodule ".\\pack\\bundle\\start\\Ionide-vim"]
-	path = .\\pack\\bundle\\start\\Ionide-vim
+[submodule "pack/bundle/start/Ionide-vim"]
+	path = pack/bundle/start/Ionide-vim
 	url = https://github.com/ionide/Ionide-vim
