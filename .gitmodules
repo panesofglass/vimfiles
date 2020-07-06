@@ -34,3 +34,12 @@
 [submodule "pack/bundle/start/Ionide-vim"]
 	path = pack/bundle/start/Ionide-vim
 	url = https://github.com/ionide/Ionide-vim
+[submodule "pack/bundle/start/vim-javascript"]
+	path = pack/bundle/start/vim-javascript
+	url = https://github.com/pangloss/vim-javascript
+[submodule "pack/bundle/start/typescript-vim"]
+	path = pack/bundle/start/typescript-vim
+	url = https://github.com/leafgarland/typescript-vim
+[submodule "pack/bundle/start/vim-jsx-pretty"]
+	path = pack/bundle/start/vim-jsx-pretty
+	url = https://github.com/maxmellon/vim-jsx-pretty
